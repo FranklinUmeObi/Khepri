@@ -1,14 +1,15 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from "react";
+
+import Container from "@mui/material/Container";
 function HomePage() {
   return (
     <div className="page">
+      <Container maxWidth="lg" className="container">
         <p>Home</p>
-        <Link to="/donate">Donate</Link> |{" "}
-        <Link to="/about">About</Link>
+        
+      </Container>
     </div>
-
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
