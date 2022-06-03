@@ -34,7 +34,7 @@ const headersData = [
 
 const useStyles = makeStyles(() => ({
   header: {
-    backgroundColor: "#352453",
+    backgroundColor: "#f9a826",
     paddingRight: "79px",
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
@@ -44,12 +44,13 @@ const useStyles = makeStyles(() => ({
   logo: {
     // fontFamily: "Work Sans, sans-serif",
     fontWeight: 600,
-    color: "#FFFEFE",
+    color: "#fff",
     textAlign: "left",
   },
   menuButton: {
     // fontFamily: "Open Sans, sans-serif",
     fontWeight: 700,
+    color: "#fff",
     size: "18px",
     marginLeft: "38px",
   },
@@ -151,7 +152,7 @@ export default function Header() {
   };
 
   const Logo = (
-    <Typography variant="h6" component="h1" className={logo}>
+    <Typography variant="h6" component="h3" className={logo}>
       Khepri
     </Typography>
   );
